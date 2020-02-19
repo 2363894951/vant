@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://127.0.0.1:1433;DatabaseName=helps
+    username: sa
+    password: 123
+mconfig:
+  swagger-ui-open: true
+
+mybatis:
+  type-aliases-package: com.api.module
